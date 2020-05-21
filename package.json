@@ -1,0 +1,21 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "babel demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "watch": "babel src -w -d lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/traverse": "^7.9.6",
+    "@babel/types": "^7.9.6",
+    "babylon": "^6.18.0"
+  }
+}
